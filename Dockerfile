@@ -1,5 +1,5 @@
 # Definindo a imagem base
-FROM node: 18-alpine3.20
+FROM node:18-alpine3.20
 
 # Criar uma pasta do projeto dentro da imagem
 WORKDIR /src/app
